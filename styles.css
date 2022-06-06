@@ -1,0 +1,18 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.item{
+    display: flex;
+    flex-flow: column wrap;
+    border: solid 2px black;
+    width: 250px;
+    padding-left: 5px;
+    background-color: azure;
+}
